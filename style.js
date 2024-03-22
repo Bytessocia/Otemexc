@@ -73,7 +73,7 @@ async function getExchangeRate() {
   const query = fromCurrencyURI + "_" + toCurrencyURI;
   // add the key and query to final url
   const url =
-    "https://free.currconv.com/api/v7/convert?q=" +
+    "https://api.exchangerate-api.com/v4/latest/${fromCurrency}" +
     query +
     "&compact=ultra&apiKey=" +
     apiKey;
