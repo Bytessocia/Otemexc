@@ -1,10 +1,10 @@
 html,
 body {
   height: 100%;
-  line-height: 1.8;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: #000;
 }
 
 h1 {
@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   height: 8em;
   padding: 2em;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 12px rgba(0, 0, 0, 0.45);
 }
 
 .selectWrap {
@@ -38,8 +38,8 @@ body {
 input,
 select {
   height: 2.5em;
-  font-size: 25px;
-  width: 80%;
+  font-size: 20px;
+  width: 70%;
   margin: 5px auto;
   text-align: center;
   text-align-last: center;
@@ -81,9 +81,9 @@ button {
   width: 300px;
   font-size: 1em;
   border-radius: 0.5em;
-  background-color: #fff;
+  background-color: green;
   border: none;
-  color: #000;
+  color: #fff;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
