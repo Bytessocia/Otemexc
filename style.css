@@ -72,10 +72,12 @@ button1 {
   height: 50px;
   font-size: 20px;
   border-radius: 0.5em;
-  background-color: red;
+  background-color: green;
   color: #fff;
   border: none;
   margin-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 #exchange-rate {
@@ -93,9 +95,9 @@ button1 {
   width: 300px;
   font-size: 1em;
   border-radius: 0.5em;
-  background-color: green;
+  background-color: #fff;
   border: none;
-  color: #fff;
+  color: #000;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
