@@ -5,19 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
     <h1>Live exchange rates</h1>
-    <main>
-        <div id="selections">
-            <div id="amount" class="selectWrap">
-                <label>Amount to exchange</label>
-                <input type="text" id="original-currency-amount" placeholder="0"></input>
-            </div>
-            <div id="original" class="selectWrap">
-                <label for="original-currency-unit">From:</label>
-                <select id="original-currency-unit">
+        <div class="container">
+            <div class="currency">
+                 <select id="currency-one">
                     <option value="AED" data-name="United Arab Emirates dirham">AED</option>
                     <option value="AFN" data-name="Afghan afghani">AFN</option>
                     <option value="ALL" data-name="Albanian lek">ALL</option>
@@ -178,11 +172,14 @@
                     <option value="ZMW" data-name="Zambian kwacha">ZMW</option>
                     <option value="ZWL" data-name="Zimbabwean dollar">ZWL</option>
                 </select>
-                <p class="currencyText" id="fromCurrencyText">United States Dollar</p>
-            </div>
-            <div id="new" class="selectWrap">
-                <label for="new-currency-unit">To:</label>
-                <select id="new-currency-unit">
+    <input type="number" id="amount-one" placeholder="0" value="1">
+    </div>
+    <div class="swap-rate-container">
+      <button class="btn" id="swap">Swap</button>
+      <div class="rate" id="rate"></div>
+    </div>
+    <div class="currency">
+                <select id="currency-two">
                     <option value="AED" data-name="United Arab Emirates dirham">AED</option>
                     <option value="AFN" data-name="Afghan afghani">AFN</option>
                     <option value="ALL" data-name="Albanian lek">ALL</option>
@@ -343,18 +340,13 @@
                     <option value="ZMW" data-name="Zambian kwacha">ZMW</option>
                     <option value="ZWL" data-name="Zimbabwean dollar">ZWL</option>
                 </select>
-                <p class="currencyText" id="toCurrencyText">Nigerian naira</p>
-            </div>
-        </div>
-        <div id="returned">
-            <button>Exchange</button>
-            <div id="exchange-rate">FX Rate</div>
-            <div id="output-text">exchanged amount appears here</div>
+                <input type="number" id="amount-two" placeholder="0">
+         </div>
+     </div>
             <br>
             <h2>Cashout USDT to NGN at current rate?</h2>
             <button1>😎Lets deal oncode😎</button1>
-        </div>
-    </main>
-    <script type="module" src="index.js"></script>
+        
+    <script type="module" src="style.js"></script>
     </body>
 </html>
