@@ -70,10 +70,10 @@ async function getExchangeRate() {
   // encode currency and build the query
   const fromCurrencyURI = encodeURIComponent(fromCurrency);
   const toCurrencyURI = encodeURIComponent(toCurrency);
-  const query = fromCurrencyURI + "https://api.exchangerate-api.com/v4/latest/" + toCurrencyURI;
+  const query = fromCurrencyURI + "" + toCurrencyURI;
   // add the key and query to final url
   const url =
-    "https://api.exchangerate-api.com/v4/latest/" +
+    "https://api.exchangerate-api.com/v4/latest/convert?q=" +
     query +
     "&compact=ultra&apiKey=" +
     apiKey;
