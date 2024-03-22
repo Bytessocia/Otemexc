@@ -11,6 +11,11 @@ h1 {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
+h2 {
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+}
+
 body {
   text-align: center;
   font-family: sans-serif;
@@ -39,7 +44,7 @@ body {
 input,
 select {
   height: 2.5em;
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
   margin: 5px auto;
   text-align: center;
@@ -77,7 +82,6 @@ button1 {
   border: none;
   margin-bottom: 1em;
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
 }
 
 #exchange-rate {
