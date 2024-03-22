@@ -44,7 +44,7 @@ body {
 input,
 select {
   height: 2.5em;
-  font-size: 18px;
+  font-size: 20px;
   width: 80%;
   margin: 5px auto;
   text-align: center;
@@ -73,15 +73,15 @@ button {
 }
 
 button1 {
-  width: 300px;
-  height: 50px;
-  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
   border-radius: 0.5em;
   background-color: green;
   color: #fff;
   border: none;
-  margin-bottom: 1em;
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 #exchange-rate {
