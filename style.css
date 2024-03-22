@@ -24,12 +24,12 @@ body {
   display: flex;
   flex-direction: row;
   height: 8em;
-  padding: 1em;
+  padding: 2em;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
 .selectWrap {
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ select {
   height: 2.5em;
   font-size: 20px;
   width: 80%;
-  margin: 3px auto;
+  margin: 2px auto;
   text-align: center;
   text-align-last: center;
   border-radius: 0.5em;
@@ -67,6 +67,17 @@ button {
   margin-bottom: 1em;
 }
 
+button1 {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 0.5em;
+  background-color: red;
+  color: #fff;
+  border: none;
+  margin-bottom: 1em;
+}
+
 #exchange-rate {
   width: 300px;
   font-size: 1em;
@@ -82,9 +93,9 @@ button {
   width: 300px;
   font-size: 1em;
   border-radius: 0.5em;
-  background-color: green;
+  background-color: #fff;
   border: none;
-  color: #fff;
+  color: #000;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
