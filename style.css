@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 12px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
 body {
@@ -17,13 +17,14 @@ body {
   background: url("https://source.unsplash.com/1600x900/?currency");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000;
 }
 
 #selections {
   display: flex;
   flex-direction: row;
   height: 8em;
-  padding: 2em;
+  padding: 1em;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
@@ -39,8 +40,8 @@ input,
 select {
   height: 2.5em;
   font-size: 20px;
-  width: 90%;
-  margin: 5px auto;
+  width: 80%;
+  margin: 3px auto;
   text-align: center;
   text-align-last: center;
   border-radius: 0.5em;
