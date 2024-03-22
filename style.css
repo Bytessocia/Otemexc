@@ -41,7 +41,7 @@ select {
   height: 2.5em;
   font-size: 20px;
   width: 80%;
-  margin: 2px auto;
+  margin: 5px auto;
   text-align: center;
   text-align-last: center;
   border-radius: 0.5em;
@@ -93,9 +93,9 @@ button1 {
   width: 300px;
   font-size: 1em;
   border-radius: 0.5em;
-  background-color: #fff;
+  background-color: green;
   border: none;
-  color: #000;
+  color: #fff;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
