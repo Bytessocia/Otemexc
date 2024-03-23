@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  withd: 100%;
 }
 /* Apply a background color and text styles */
 body {
@@ -43,7 +44,7 @@ h2 {
   margin: 8px;
   background-color: orange;
   border: 1px solid #000;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 8px;
   width: 250px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
@@ -52,7 +53,7 @@ h2 {
 select, input {
   margin: 8px 0;
   padding: 8px;
-  border: 1px solid #000;
+  border: 1px solid #ccc;
   border-radius: 10px;
   width: 100%;
   }
@@ -66,9 +67,9 @@ select, input {
 
 .btn {
   background-color: orange;
-  color: #000;
+  color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
