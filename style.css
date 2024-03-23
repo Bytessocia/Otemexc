@@ -51,7 +51,7 @@ h2 {
   border: 1px solid #ccc;
   border-radius: 15px;
   padding: 8px;
-  width: 100%;
+  width: 300px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
@@ -89,5 +89,5 @@ select, input {
   font-size: 24px;
   margin-top: 8px;
 }
-/* Media queries for responsiveness */
+
 
