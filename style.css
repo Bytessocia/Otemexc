@@ -12,20 +12,20 @@ body {
   background: url("https://source.unsplash.com/1600x900/?currency");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: orange;
+  background-color: #000;
 }
 /* Style the heading */
 h1 {
   color: #fff;
   font-size: 32px;
-  margin: 20px 0;
+  margin: 18px 0;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
 h2 {
   color: #fff;
   font-size: 18px;
-  margin: 20px 0;
+  margin: 18px 0;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 /* Style the container for currency inputs */
@@ -34,26 +34,26 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 18px;
 }
 /* Style currency select and input elements */
 .currency {
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  background-color: #007bff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
+  margin: 8px;
+  background-color: orange;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 8px;
   width: 250px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
 select, input {
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 10px;
   width: 100%;
   }
 /* Style the swap button and rate display */
@@ -61,12 +61,12 @@ select, input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 18px;
 }
 
 .btn {
-  background-color: #007bff;
-  color: #fff;
+  background-color: orange;
+  color: #000;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -81,7 +81,7 @@ select, input {
 .rate {
   color: #fff;
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
