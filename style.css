@@ -12,20 +12,20 @@ body {
   background: url("https://source.unsplash.com/1600x900/?currency");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #000;
+  background-color: orange;
 }
 /* Style the heading */
 h1 {
   color: #fff;
   font-size: 32px;
-  margin: 10px 0;
+  margin: 20px 0;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 
 h2 {
   color: #fff;
   font-size: 18px;
-  margin: 10px 0;
+  margin: 20px 0;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
 /* Style the container for currency inputs */
@@ -34,17 +34,17 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 20px;
 }
 /* Style currency select and input elements */
 .currency {
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 10px;
   background-color: #007bff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   width: 250px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
 }
@@ -61,7 +61,7 @@ select, input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .btn {
@@ -81,7 +81,7 @@ select, input {
 .rate {
   color: #fff;
   font-size: 24px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
