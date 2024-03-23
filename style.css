@@ -1,19 +1,24 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  line-height: 1.8;
+}
 /* Reset some default styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  withd: 100%;
 }
 /* Apply a background color and text styles */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  background: url("https://source.unsplash.com/1600x900/?currency");
+  background: url("https://source.unsplash.com/1600x900/?currency") no repeat center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #007bff;
+  background-color: #004AAD;
+  min-height: 100%;
 }
 /* Style the heading */
 h1 {
@@ -42,7 +47,7 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 8px;
-  background-color: #007bff;
+  background-color: #004AAD;
   border: 1px solid #ccc;
   border-radius: 15px;
   padding: 8px;
@@ -66,7 +71,7 @@ select, input {
 }
 
 .btn {
-  background-color: #007bff;
+  background-color: #004AAD;
   color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
