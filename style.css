@@ -90,23 +90,4 @@ select, input {
   margin-top: 8px;
 }
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .currency {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 32px;
-  }
-}
-
-
-
-
 
