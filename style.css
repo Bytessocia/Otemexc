@@ -13,8 +13,11 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  background: #004AAD url("https://source.unsplash.com/1600x900/?currency") no-repeat center center;
+  background: url("https://source.unsplash.com/1600x900/?currency");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 /* Style the heading */
 h1 {
